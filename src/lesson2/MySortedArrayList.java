@@ -1,7 +1,5 @@
 package lesson2;
 
-import lesson2.classfiles.MyArraylist;
-
 public class MySortedArrayList<Item extends Comparable> extends MyArraylist<Item> {
     @Override
     public void add(Item item) {

@@ -2,7 +2,7 @@ package lesson2;
 
 import java.util.Comparator;
 
-public class BubbleSort<Item extends Comparable> extends lesson2.hw.Sort {
+public class BubbleSort<Item extends Comparable> extends lesson2.Sort {
     private MyArraylist myArraylist;
     private int size;
     private Item[] list;
